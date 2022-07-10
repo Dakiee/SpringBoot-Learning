@@ -9,4 +9,7 @@ public interface UserService {
 
     /** Get user */
     public List<MUser> getUsers();
+
+    //Get 1 user record
+    public MUser getUserOne(String userId);
 }
