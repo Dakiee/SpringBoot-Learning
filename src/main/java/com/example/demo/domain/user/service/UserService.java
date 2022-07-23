@@ -8,7 +8,7 @@ public interface UserService {
     public void signup(MUser user);
 
     /** Get user */
-    public List<MUser> getUsers();
+    public List<MUser> getUsers(MUser user);
 
     // Get 1 user record
     public MUser getUserOne(String userId);
